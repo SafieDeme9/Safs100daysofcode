@@ -6,11 +6,12 @@ def operation(link):
     """
     Start the download operation
     """
-    with youtube_dl.YoutubeDL(ydl_opt) as yd: # The method YoutubeDL() take one argument which is a dictionary for changing default settings
-        video = yd.download([link]) # Start the download
-    print("Your video has been downloaded !")
-    """except Exception:
-        print("Sorry, we got an error.")"""
+    try:
+        with youtube_dl.YoutubeDL(ydl_opt) as yd: # The method YoutubeDL() take one argument which is a dictionary for changing default settings
+            video = yd.download([link]) # Start the download
+        print("Your video has been downloaded !")
+    except Exception:
+        print("Sorry, we got an error.")
 
 #operation("https://www.youtube.com/watch?v=3YqPKLZF_WU&ab_channel=Coldplay")
 
