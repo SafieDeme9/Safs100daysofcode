@@ -13,7 +13,3 @@ def operation(link):
     except Exception:
         print("Sorry, we got an error.")
 
-#operation("https://www.youtube.com/watch?v=3YqPKLZF_WU&ab_channel=Coldplay")
-
-"""link = input("Give the URL to the video : ")
-operation(link)"""
