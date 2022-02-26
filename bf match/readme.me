@@ -1,4 +1,4 @@
-#Bf match
+# Bf match
 
 J'avais organisé une activité le kpop besto friendoooo qui consister à matcher les participants qui ont la même personnalité, les mêmes goûts etc. 
 Je me suis inspiré du test de personnalité myers briggs pour faire un formulaire avec des questions dont les réponses allaient de 1 jusqu'à 5. 
